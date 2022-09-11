@@ -1,0 +1,8 @@
+echo"enter choice"
+read n
+case $n in
+	1)pwd ;;
+	2)date ;;
+	3)ls ;;
+	*)echo "wrong choice" 
+esac
