@@ -1,0 +1,15 @@
+file=$1
+if [ -e $file ]
+then
+ echo "exists"
+else
+ echo "no"
+fi
+
+-e 
+-f
+-d
+-r
+-w
+-x
+-L
